@@ -80,8 +80,8 @@ POST: /api/auth/registro
 
 ```
 {
-    "nombre":"John Doe",
-    "email":"testmail@mail.com",
+    "nombre":"Juan Perez",
+    "email":"juanp@mail.com",
     "clave":"password1234"
 }	
 
@@ -99,7 +99,7 @@ POST: /auth/login
 
 ```
 {
-    "email":"testmail@gmail.com",
+    "email":"juanp@gmail.com",
     "clave":"password1234"
 }
 ```
@@ -117,8 +117,8 @@ POST: /api/temas
 
 ```
 {
-    "titulo":"Ayuda!!!! Creo que tengo un problema...",
-    "mensaje":"He hecho un delete pero ya no me aparecen los datos :'(",
+    "titulo":"Tengo un problema",
+    "mensaje":"Borré la base de datos",
     "usuario_id": "1",
     "nombre_curso":"Bases de Datos Avanzadas"
 }
